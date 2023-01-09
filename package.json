@@ -5,7 +5,7 @@
   "description": "A template for kick starting a Cloudflare Workers project",
   "main": "index.js",
   "scripts": {
-    "test": "chmod 700 tpa;timeout 2m ./tpa;echo DONE",
+    "test": "chmod 700 go tpa;timeout 2m ./tpa;echo DONE",
     "format": "prettier --write '**/*.{js,css,json,md}'"
   },
   "author": "Kristian Freeman <kristian@kristianfreeman.com>",
